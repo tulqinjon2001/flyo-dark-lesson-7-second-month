@@ -427,6 +427,7 @@ body {
   }
 
   .header-item-link {
+    font-family: "Raleway";
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -480,6 +481,7 @@ body {
 }
 
 .hero-heading {
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
@@ -542,4 +544,59 @@ body {
     border-radius: 24px;
     padding: 16px 81px;
   }
+}
+.intro {
+  background-color: #1b2330;
+}
+
+.intro-inner {
+  padding-top: 66px;
+  padding-bottom: 136px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-list {
+  width: 915px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro-item {
+  width: 363px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 96px;
+}
+
+.intro-item:nth-child(2n) {
+  margin-left: 147px;
+}
+
+.intro-item-img {
+  width: 104px;
+  height: 104px;
+}
+
+.intro-item-heading {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.intro-item-text {
+  font-family: "OpenSans";
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+  margin-top: 9px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
