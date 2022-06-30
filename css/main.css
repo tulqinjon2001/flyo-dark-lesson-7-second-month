@@ -485,7 +485,7 @@ body {
   line-height: 60px;
   text-align: center;
   color: #fff;
-  width: 734px;
+  max-width: 734px;
   margin: 0;
   padding: 0;
   padding-top: 615px;
@@ -497,7 +497,7 @@ body {
   line-height: 30px;
   text-align: center;
   color: #fff;
-  width: 589px;
+  max-width: 589px;
   margin: 0;
   margin-top: 32px;
 }
@@ -517,4 +517,29 @@ body {
 
 .hero-button:hover {
   background: linear-gradient(152.13deg, #8ddbd6 -150.21%, #06aef7 170.03%);
+}
+
+@media only screen and (max-width: 750px) {
+  .hero-inner {
+    background-size: 300px 255px;
+  }
+
+  .hero-heading {
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 304px;
+    max-width: 500px;
+  }
+
+  .hero-text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 15px;
+    max-width: 450px;
+  }
+
+  .hero-button {
+    border-radius: 24px;
+    padding: 16px 81px;
+  }
 }/*# sourceMappingURL=main.css.map */
