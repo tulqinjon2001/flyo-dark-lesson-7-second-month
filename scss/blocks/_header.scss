@@ -25,3 +25,24 @@
   line-height: 19px;
   color: #ffffff
 }
+
+@media only screen and (max-width: 800px) {
+  .header-inner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: start;
+  }
+
+  .header-item-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header-list {
+    width: 150px;
+  }
+}
