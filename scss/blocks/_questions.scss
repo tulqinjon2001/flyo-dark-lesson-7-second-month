@@ -3,10 +3,12 @@
 }
 
 .questions-inner {
-  width: 863px;
+  max-width: 863px;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 42px;
+  padding-bottom: 41px;
   background-color: #202a3c;
   display: flex;
   flex-direction: column;
@@ -19,7 +21,6 @@
   font-size: 32px;
   line-height: 48px;
   margin: 0;
-  padding-top: 42px;
 }
 
 .questions-text {
@@ -50,4 +51,33 @@
   border-radius: 24px;
   margin-left: 29px;
   padding: 15px 26px;
+}
+
+@media only screen and (max-width: 750px) {
+  .questions-inner {
+    padding-top: 40px;
+    padding-bottom: 37px;
+  }
+
+  .question-heading {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .questions-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .questions-form-email {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 19px 100px 15px 29px;
+  }
+
+  .questions-form-button {
+    margin-top: 24px;
+    margin-left: 0;
+    padding: 16px 73px 16px 72px;
+  }
 }
